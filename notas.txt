@@ -6,6 +6,8 @@ git config --global --list
 git init --> cria o repositório na pasta (.git)
 git status
 code . --> abre o vs code 
+cd nome-da-paste --> abre a pasta solicitada (sei que estou fora de uma pasta 
+quando não mostra "main" ou "master")
 
 git add nome_arquivo.txt --> vai adicionar o arquivo modificado no standing
     git add . --> adiciona todos os arquivos modificados no staging
@@ -21,3 +23,13 @@ git checkout -b "nome-da-nova-branch" --> cria uma nova branch e me deixa
     git push origin "nome-da-nova-branch" --> push p branchs
     git checkout master(ou nome-da-branch) --> alternando entre branches
     git marge nome-da-branch --> junta a branch no main
+
+git clone url-repositorio-do-github --> primeiro crio uma pasta, depois dentro 
+dela abro o terminal e uso o comando
+    git pull --> se foi feita alguma alteração no projeto "oficial" depois de
+    clonar, para atualizar o projeto que esta na minha máquina, uso esse comando
+
+    git pull request --> depois de fazer um fork do projeto de alguém e uma       fork -> é tipo o clone, só que vai aparecer nos meus
+    alteração, usando esse comando, posso mandar para o dono a minha alteração    repositórios, não na minha máquina.
+    pedindo que ele faça o pull no projeto oficial (delea)  
+        da pra fazer diretamente pelo github 
