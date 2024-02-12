@@ -1,13 +1,33 @@
-## criar nova branch p seguir com os exemplos
-
 git config --global user.name "meu user" --> identificador
 git config --global user.email "meuemail@gmail.com" --> identificador
 git config --global --list
 git init --> cria o repositório na pasta (.git)
 git status
+
+git reset HEAD nome-do-arquivo -->  é usado para remover arquivos do staging 
+area, ou seja, para retirá-los da lista de arquivos que serão incluídos no 
+próximo commit
+
+git reset --soft HEAD~1 --> Este comando desfaz o commit mais recente, mas 
+mantém as alterações do commit no staging area
+
+git reset --hard HEAD~1 --> Este comando desfaz o commit mais recente e descarta
+todas as alterações associadas a ele. Ele redefine o HEAD para o commit
+especificado e também reverte os arquivos do diretório de trabalho para o 
+estado em que estavam nesse commit
+
+git diff --> mostra as diferenças entre commits, branches, working directory e
+staging area, em tempo real, quer dizer, mesmo sem ter usado git add, commit ou 
+push
+
+git log --> mostra o histórico de commits e outras infos (para voltar ao prompt
+basta clicar no "q")
+
 code . --> abre o vs code 
-cd nome-da-paste --> abre a pasta solicitada (sei que estou fora de uma pasta 
-quando não mostra "main" ou "master")
+
+cd nome-da-pasta --> abre a pasta solicitada, ex:
+cd C:\Users\dudam\OneDrive\Documentos\Programação\estudos-git 
+(sei que estou fora de uma pasta quando não mostra "main" ou "master")
 
 git add nome_arquivo.txt --> vai adicionar o arquivo modificado no standing
     git add . --> adiciona todos os arquivos modificados no staging
@@ -23,6 +43,9 @@ git checkout -b "nome-da-nova-branch" --> cria uma nova branch e me deixa
     git push origin "nome-da-nova-branch" --> push p branchs
     git checkout master(ou nome-da-branch) --> alternando entre branches
     git marge nome-da-branch --> junta a branch no main
+
+git branch --> mostra todas as branches do repositório, e add "-a" mostra também
+branches remotas
 
 git clone url-repositorio-do-github --> primeiro crio uma pasta, depois dentro 
 dela abro o terminal e uso o comando
