@@ -13,3 +13,8 @@ git commit -m "mensagem pro commit"
 git push origin master --> carrega o commit pro repositorio do github
     git remote add origin url-repositorio-do-github --> responsável por fazer a 
     conexão do repositorio local (minha máquina) com o remoto (github)
+
+git checkout -b "nome-da-nova-branch" --> cria uma nova branch e me deixa 
+"dentro" dela
+    git push origin "nome-da-nova-branch" --> push p branchs
+    git checkout master(ou nome-da-branch) --> alternando entre branches
