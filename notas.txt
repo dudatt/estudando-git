@@ -1,3 +1,5 @@
+## criar nova branch p seguir com os exemplos
+
 git config --global user.name "meu user" --> identificador
 git config --global user.email "meuemail@gmail.com" --> identificador
 git config --global --list
@@ -18,3 +20,4 @@ git checkout -b "nome-da-nova-branch" --> cria uma nova branch e me deixa
 "dentro" dela
     git push origin "nome-da-nova-branch" --> push p branchs
     git checkout master(ou nome-da-branch) --> alternando entre branches
+    git marge nome-da-branch --> junta a branch no main
