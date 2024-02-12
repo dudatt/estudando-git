@@ -1,0 +1,8 @@
+git config --global user.name "meu user"
+git config --global user.email "meuemail@gmail.com"
+git config --global --list
+git init
+git status
+code . --> abre o vs code 
+git add nome_arquivo.txt --> vai adicionar o arquivo modificado no standing
+    git add . --> adiciona todos os arquivos modificados no staging
