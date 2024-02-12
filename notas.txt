@@ -1,8 +1,15 @@
-git config --global user.name "meu user"
-git config --global user.email "meuemail@gmail.com"
+git config --global user.name "meu user" --> identificador
+git config --global user.email "meuemail@gmail.com" --> identificador
 git config --global --list
-git init
+git init --> cria o repositório na pasta (.git)
 git status
 code . --> abre o vs code 
+
 git add nome_arquivo.txt --> vai adicionar o arquivo modificado no standing
     git add . --> adiciona todos os arquivos modificados no staging
+
+git commit -m "mensagem pro commit"
+
+git push origin master --> carrega o commit pro repositorio do github
+    git remote add origin url-repositorio-do-github --> responsável por fazer a 
+    conexão do repositorio local (minha máquina) com o remoto (github)
