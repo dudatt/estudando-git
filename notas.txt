@@ -47,6 +47,11 @@ git checkout -b "nome-da-nova-branch" --> cria uma nova branch e me deixa
 git branch --> mostra todas as branches do repositório, e add "-a" mostra também
 branches remotas
 
+git branch -d nome-branch --> exclui uma branch
+
+git branch -D nome-branch -->  força a exclusão da branch, mesmo que ela 
+contenha alterações não mescladas
+
 git clone url-repositorio-do-github --> primeiro crio uma pasta, depois dentro 
 dela abro o terminal e uso o comando
     git pull --> se foi feita alguma alteração no projeto "oficial" depois de
