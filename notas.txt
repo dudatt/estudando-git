@@ -67,7 +67,7 @@ git push origin "nome-da-nova-branch" --> push p branchs
     
 git checkout master(ou nome-da-branch) --> alternando entre branches
     
-git marge nome-da-branch --> junta a branch no main
+git merge nome-da-branch --> junta a branch no main
 
 git branch --> mostra todas as branches do repositório, e add "-a" mostra também
 branches remotas
