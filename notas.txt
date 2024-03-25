@@ -76,3 +76,22 @@ git branch -d nome-branch --> exclui uma branch
 
 git branch -D nome-branch -->  força a exclusão da branch, mesmo que ela 
 contenha alterações não mescladas
+
+// OUTROS
+
+mkdir nome_do_diretório --> cria uma pasta
+
+ls --> usado para listar os arquivos e diretórios presentes no diretório atual.
+     Usando em conjunto:
+     -a: Lista todos os arquivos do diretório, incluindo os arquivos ocultos
+     -l: Lista permissões, número de entidades, dono, grupo, tamanho do arquivo, 
+     data e hora da última atualização e o nome do arquivo.
+     -h: Exibe o tamanho do arquivo em um formato mais compreensível.
+
+yarn init -y -> cria um projeto node.js com o Yarn, criando um arquivo 
+packege.json com valores padrão.
+
+yarn add -D -tipo- --> é usado para adicionar pacotes como dependências de 
+desenvolvimento. Isso significa que o pacote será usado apenas durante o 
+desenvolvimento e não será incluído quando você implantar ou distribuir seu 
+aplicativo.
