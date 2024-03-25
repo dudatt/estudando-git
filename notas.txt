@@ -91,7 +91,11 @@ ls --> usado para listar os arquivos e diretórios presentes no diretório atual
 yarn init -y -> cria um projeto node.js com o Yarn, criando um arquivo 
 packege.json com valores padrão.
 
-yarn add -D -tipo- --> é usado para adicionar pacotes como dependências de 
+yarn add -D tipo (EX: yarn add -D typescript) --> é usado para adicionar pacotes como dependências de 
 desenvolvimento. Isso significa que o pacote será usado apenas durante o 
 desenvolvimento e não será incluído quando você implantar ou distribuir seu 
 aplicativo.
+
+yarn add express --> Adiciona o pacote Express ao seu projeto Node.js. O Express 
+é um framework web para Node.js que facilita a criação de aplicativos web e APIs,
+e também simplifica a criação de servidores HTTP e o roteamento de URLs.
