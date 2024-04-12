@@ -16,6 +16,7 @@ git config --global user.email "meuemail@gmail.com"
      conexão do repositorio local (minha máquina) com o remoto (github).
     
 5° - git push origin master --> carrega o commit pro repositorio do github.
+     git push --> uso diário.
 
 //CLONAR
 
