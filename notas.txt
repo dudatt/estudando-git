@@ -89,6 +89,8 @@ ls --> usado para listar os arquivos e diretórios presentes no diretório atual
      data e hora da última atualização e o nome do arquivo.
      -h: Exibe o tamanho do arquivo em um formato mais compreensível.
 
+echo Texto do arquivo > nome_arquivo.txt --> cria arquivos no powershell
+
 yarn init -y -> cria um projeto node.js com o Yarn, criando um arquivo 
 packege.json com valores padrão.
 
